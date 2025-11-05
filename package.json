@@ -1,0 +1,11 @@
+{
+  "name": "foxytrailz23-website",
+  "version": "1.0.0",
+  "description": "Static growth funnel experience for FoxyTrailz23 with analytics planning tools.",
+  "scripts": {
+    "build": "echo \"Static site - no build step required\"",
+    "lint": "echo \"No linting configured\""
+  },
+  "author": "FoxyTrailz23",
+  "license": "MIT"
+}
