@@ -1,246 +1,185 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>FoxyTrailz23 Growth Funnel</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="assets/style.css" />
+<meta charset="utf-8">
+<title>FoxyTrailz23 • One Page Affiliate Hub</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="theme-color" content="#0b0f1a">
+
+<!-- 🔥 GTM LIVE -->
+<script>
+(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'? '&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P4WXVWV7');
+</script>
+
+<style>
+:root{
+  --bg:#050812;
+  --card:rgba(255,255,255,.08);
+  --accent:#7cffb2;
+}
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:system-ui,-apple-system,Arial;
+  background:radial-gradient(circle at top,#0e1538,#050812);
+  color:#fff;
+}
+header{
+  position:sticky;top:0;z-index:10;
+  background:#0a0f24;
+  padding:14px;
+  text-align:center;
+}
+h1{margin:0;font-size:18px}
+.hero{
+  padding:22px 16px;
+  text-align:center;
+}
+.hero h2{margin:6px 0 10px;font-size:26px}
+.hero p{opacity:.8;font-size:14px}
+.btn{
+  display:inline-block;
+  margin-top:12px;
+  padding:14px 18px;
+  border-radius:14px;
+  background:linear-gradient(135deg,#7cffb2,#4de3ff);
+  color:#041014;
+  font-weight:900;
+  text-decoration:none;
+  animation:pulse 2.2s infinite;
+}
+@keyframes pulse{
+  0%{box-shadow:0 0 0 0 rgba(124,255,178,.6)}
+  70%{box-shadow:0 0 0 18px rgba(124,255,178,0)}
+  100%{box-shadow:0 0 0 0 rgba(124,255,178,0)}
+}
+
+main{padding:16px}
+.grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:14px;
+}
+.card{
+  background:var(--card);
+  border-radius:18px;
+  padding:16px;
+  box-shadow:0 10px 28px rgba(0,0,0,.55);
+  transform:translateY(0);
+  transition:transform .25s ease;
+}
+.card:active{transform:scale(.98)}
+.card h3{margin:4px 0 6px}
+.card p{margin:0;font-size:13px;opacity:.8}
+.card .go{
+  display:block;
+  margin-top:10px;
+  padding:12px;
+  text-align:center;
+  border-radius:12px;
+  background:#101a3a;
+  font-weight:800;
+}
+
+footer{
+  margin-top:28px;
+  padding:16px;
+  text-align:center;
+  font-size:12px;
+  opacity:.7;
+}
+</style>
 </head>
+
 <body>
-  <header class="hero" id="top">
-    <nav class="navigation" aria-label="Primary">
-      <a class="brand" href="#top">FoxyTrailz23</a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
-      <ul class="nav-links" id="primary-nav">
-        <li><a href="#analysis">Analysis Setup</a></li>
-        <li><a href="#funnel">Funnel Blueprint</a></li>
-        <li><a href="#metrics">Performance Metrics</a></li>
-        <li><a href="#contact">Book a Call</a></li>
-      </ul>
-    </nav>
-    <div class="hero-content">
-      <p class="eyebrow">Data-Driven Digital Strategy</p>
-      <h1>Launch a Full Funnel with Analytics Locked In</h1>
-      <p class="lead">
-        Get an end-to-end acquisition engine with customer research, analytics tagging, and an automated
-        nurture flow—ready to scale from day one.
-      </p>
-      <div class="hero-actions">
-        <a class="button primary" href="#analysis">Design My Funnel</a>
-        <a class="button secondary" href="#metrics">See Performance Stack</a>
-      </div>
-    </div>
-    <div class="hero-media" role="presentation" aria-hidden="true">
-      <div class="radial"></div>
-      <div class="orbit orbit-one"></div>
-      <div class="orbit orbit-two"></div>
-    </div>
-  </header>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-P4WXVWV7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
-  <main>
-    <section class="section" id="analysis">
-      <div class="section-heading">
-        <h2>Analysis Setup Blueprint</h2>
-        <p>Collect channel insights, user behavior, and revenue attribution in one dashboard.</p>
-      </div>
-      <div class="grid two-column">
-        <article class="card">
-          <h3>Measurement Stack</h3>
-          <ul class="stack-list">
-            <li><strong>Analytics Core:</strong> GA4, server-side event tracking, BigQuery warehousing</li>
-            <li><strong>Attribution:</strong> Meta CAPI, Google Ads Enhanced Conversions, UTM governance</li>
-            <li><strong>Experience:</strong> Hotjar heatmaps, session replays, funnel drop-off mapping</li>
-            <li><strong>Automation:</strong> Looker Studio dashboards and Slack alert triggers</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Insights Workflow</h3>
-          <ol class="workflow-list">
-            <li>Deploy tracking plan with QA checklist and governance templates.</li>
-            <li>Stream events into the FoxyTrailz23 warehouse for a single source of truth.</li>
-            <li>Automate reporting with channel benchmarks and budget pacing alerts.</li>
-            <li>Prioritize funnel experiments with weekly performance sprints.</li>
-          </ol>
-        </article>
-      </div>
-      <form class="card form" id="analysis-form">
-        <h3>Lock In Your Tracking Plan</h3>
-        <p class="form-subtitle">Answer a few prompts and we will configure the exact analytics stack you need.</p>
-        <div class="form-field">
-          <label for="business-name">Business Name</label>
-          <input id="business-name" name="business" type="text" placeholder="FoxyTrailz Outfitters" required />
-        </div>
-        <div class="form-field">
-          <label for="industry">Industry Focus</label>
-          <input id="industry" name="industry" type="text" placeholder="Outdoor Gear" required />
-        </div>
-        <div class="form-field">
-          <label for="traffic-level">Monthly Site Sessions</label>
-          <input id="traffic-level" name="sessions" type="number" min="0" step="100" value="2500" />
-        </div>
-        <fieldset class="form-field">
-          <legend>Priority Funnel Stages</legend>
-          <div class="toggle-group">
-            <label><input type="checkbox" name="stage" value="awareness" checked /> Awareness</label>
-            <label><input type="checkbox" name="stage" value="consideration" checked /> Consideration</label>
-            <label><input type="checkbox" name="stage" value="conversion" checked /> Conversion</label>
-            <label><input type="checkbox" name="stage" value="retention" /> Retention</label>
-          </div>
-        </fieldset>
-        <div class="form-field">
-          <label for="goal-cpa">Target Cost per Acquisition (USD)</label>
-          <input id="goal-cpa" name="cpa" type="number" min="1" step="1" value="120" />
-        </div>
-        <div class="form-field checkbox">
-          <label>
-            <input id="newsletter" name="newsletter" type="checkbox" checked />
-            Sync weekly analytics insights to my inbox.
-          </label>
-        </div>
-        <button class="button primary" type="submit">Generate Plan Summary</button>
-        <p class="form-feedback" id="analysis-feedback" role="status" aria-live="polite"></p>
-      </form>
-    </section>
+<header>
+<h1>🔥 FoxyTrailz23 – Affiliate Hub</h1>
+</header>
 
-    <section class="section accent" id="funnel">
-      <div class="section-heading">
-        <h2>Full Funnel Launch System</h2>
-        <p>Build a guided buyer journey with channel playbooks and automated nurture sequences.</p>
-      </div>
-      <div class="grid three-column">
-        <article class="card highlight">
-          <h3>1. Ignite Awareness</h3>
-          <p>
-            Pair paid social with influencer partnerships and SEO hubs. Every touchpoint is tagged to the
-            analytics warehouse for cohort analysis.
-          </p>
-        </article>
-        <article class="card highlight">
-          <h3>2. Nurture Consideration</h3>
-          <p>
-            Deploy dynamic landing pages, gated content, and retargeting sequences that respond to real-time
-            intent scoring.
-          </p>
-        </article>
-        <article class="card highlight">
-          <h3>3. Convert &amp; Expand</h3>
-          <p>
-            Conversion rate optimization, automated onboarding flows, and retention triggers keep customers
-            engaged long after their first purchase.
-          </p>
-        </article>
-      </div>
-      <aside class="card plan-output" aria-live="polite">
-        <h3>Your Funnel Snapshot</h3>
-        <dl id="funnel-plan-output"></dl>
-        <p class="muted">Use this outline to brief your growth and revenue teams.</p>
-      </aside>
-    </section>
+<section class="hero">
+<h2>One Tap. Real Deals.</h2>
+<p>Mobile-first. Rotating energy. Everything tracked.</p>
+<a class="btn" href="#deals" data-track="cta" data-label="view_deals">View Deals</a>
+</section>
 
-    <section class="section" id="metrics">
-      <div class="section-heading">
-        <h2>Metrics that Keep Teams Accountable</h2>
-        <p>Weekly scorecards connect marketing, product, and revenue teams to shared goals.</p>
-      </div>
-      <div class="grid two-column">
-        <article class="card">
-          <h3>North Star Dashboard</h3>
-          <ul class="stack-list">
-            <li>Revenue projections with CAC vs. LTV pacing</li>
-            <li>Channel efficiency with budget automation recommendations</li>
-            <li>Journey analytics by persona, device, and campaign</li>
-            <li>Lifecycle retention modeling with cohort drop-off alerts</li>
-          </ul>
-        </article>
-        <article class="card">
-          <h3>Optimization Sprints</h3>
-          <ul class="stack-list">
-            <li>Rapid experiment backlog with ICE scoring</li>
-            <li>Conversion copy and creative testing matrix</li>
-            <li>Integrated CRM and marketing automation triggers</li>
-            <li>Sales enablement playbooks with win-story tracking</li>
-          </ul>
-        </article>
-      </div>
-    </section>
+<main id="deals">
+<div class="grid">
 
-    <section class="section accent" id="contact">
-      <div class="section-heading">
-        <h2>Book a Strategy Call</h2>
-        <p>We audit your funnel, deliver a tracking map, and launch campaigns within 21 days.</p>
-      </div>
-      <div class="grid two-column">
-        <form class="card form" id="call-form">
-          <h3>Schedule a Call</h3>
-          <div class="form-field">
-            <label for="contact-name">Name</label>
-            <input id="contact-name" name="name" type="text" placeholder="Alex Taylor" required />
-          </div>
-          <div class="form-field">
-            <label for="contact-email">Email</label>
-            <input id="contact-email" name="email" type="email" placeholder="you@example.com" required />
-          </div>
-          <div class="form-field">
-            <label for="contact-date">Ideal Kickoff Date</label>
-            <input id="contact-date" name="date" type="date" />
-          </div>
-          <div class="form-field">
-            <label for="contact-notes">Key Objectives</label>
-            <textarea id="contact-notes" name="notes" rows="4" placeholder="Scale paid social, improve retention..." ></textarea>
-          </div>
-          <button class="button primary" type="submit">Secure My Spot</button>
-          <p class="form-feedback" id="call-feedback" role="status" aria-live="polite"></p>
-        </form>
-        <aside class="card">
-          <h3>What to Expect</h3>
-          <ul class="stack-list">
-            <li>60-minute strategy audit with funnel architects</li>
-            <li>Custom funnel roadmap with prioritized test plan</li>
-            <li>Measurement governance kit and channel launch checklist</li>
-            <li>Post-call playback and action tracker for your team</li>
-          </ul>
-          <div class="cta-tile">
-            <p class="cta-eyebrow">Need a quick download?</p>
-            <button class="button secondary" type="button" id="download-brief">Download Growth Brief</button>
-          </div>
-        </aside>
-      </div>
-    </section>
+<a class="card" href="https://example.com/credit" target="_blank"
+data-track="offer" data-offer="credit">
+<h3>💳 Credit Builder</h3>
+<p>Boost your credit without stress.</p>
+<span class="go">Open Deal</span>
+</a>
 
-    <section class="section" id="faq">
-      <div class="section-heading">
-        <h2>FAQs</h2>
-        <p>Everything you need to know before we launch.</p>
-      </div>
-      <div class="faq-list">
-        <details>
-          <summary>How fast can the analytics stack go live?</summary>
-          <p>Tracking can be fully deployed within 10 business days, with QA and dashboarding completed in week two.</p>
-        </details>
-        <details>
-          <summary>What happens after the initial launch?</summary>
-          <p>We operate continuous optimization sprints, refreshing experiments every week based on your performance data.</p>
-        </details>
-        <details>
-          <summary>Do you integrate with existing CRMs?</summary>
-          <p>Yes. We connect to HubSpot, Salesforce, or your custom stack, ensuring bi-directional data sync for lifecycle marketing.</p>
-        </details>
-      </div>
-    </section>
-  </main>
+<a class="card" href="https://example.com/llc" target="_blank"
+data-track="offer" data-offer="llc">
+<h3>🏁 LLC Setup</h3>
+<p>Start clean. Start fast.</p>
+<span class="go">Open Deal</span>
+</a>
 
-  <footer class="footer">
-    <p>&copy; <span id="year"></span> FoxyTrailz23. All rights reserved.</p>
-    <div class="footer-links">
-      <a href="#analysis">Analytics Blueprint</a>
-      <a href="#funnel">Funnel System</a>
-      <a href="#contact">Get in Touch</a>
-    </div>
-  </footer>
+<a class="card" href="https://example.com/ai" target="_blank"
+data-track="offer" data-offer="ai">
+<h3>🤖 AI Tools</h3>
+<p>Save time instantly.</p>
+<span class="go">Open Deal</span>
+</a>
 
-  <script type="module" src="assets/main.js"></script>
+<a class="card" href="https://example.com/shop" target="_blank"
+data-track="offer" data-offer="shop">
+<h3>🛒 Daily Deals</h3>
+<p>Stuff people actually buy.</p>
+<span class="go">Open Deal</span>
+</a>
+
+<a class="card" href="https://paypal.me/foxy1401?country.x=US&locale.x=en_US"
+target="_blank" data-track="donate" data-offer="paypal">
+<h3>💚 Support Foxy</h3>
+<p>Keep the hub alive.</p>
+<span class="go">Donate</span>
+</a>
+
+</div>
+</main>
+
+<footer>
+www.foxytrailz23.com
+</footer>
+
+<script>
+window.dataLayer=window.dataLayer||[];
+dataLayer.push({event:"page_view",page:"one_page_affiliate"});
+
+document.addEventListener("click",e=>{
+const a=e.target.closest("a[data-track]");
+if(!a)return;
+dataLayer.push({
+event:"affiliate_click",
+type:a.dataset.track,
+offer:a.dataset.offer,
+url:a.href
+});
+});
+
+let fired=[];
+window.addEventListener("scroll",()=>{
+let p=Math.round((window.scrollY/(document.body.scrollHeight-innerHeight))*100);
+[25,50,75,90].forEach(m=>{
+if(p>=m&&!fired.includes(m)){
+fired.push(m);
+dataLayer.push({event:"scroll_depth",percent:m});
+}
+});
+});
+</script>
+
 </body>
 </html>
